@@ -105,7 +105,7 @@
 								<propertyregex
 									property="currentDiffWithoutSRC"
 									input="@{currentDiff}"
-									regexp="src\/([a-zA-Z]*\/[a-zA-Z0-9\/\.\_]*)"
+									regexp="src\/([a-zA-Z]*\/[a-zA-Z0-9 \/\.\_]*)"
 									select="\1"
 									casesensitive="true" 
 									override="true"
@@ -130,7 +130,7 @@
 								<propertyregex
 									property="component"
 									input="@{currentDiff}"
-									regexp="src\/([a-zA-Z]*)\/[a-zA-Z0-9\/\.\_]*"
+									regexp="src\/([a-zA-Z]*)\/[a-zA-Z0-9 \/\.\_]*"
 									select="\1"
 									casesensitive="true" 
 									override="true"
